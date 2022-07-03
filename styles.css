@@ -68,6 +68,7 @@ h1{
     border-left:  2px solid rgb(128, 199, 240);
     padding: 20px 10px 20px 10px;
     border-radius: 20px 20px 0 0;
+    margin: -30px 10px 10px 10px;
 }
 
 #honey-bbq{
@@ -76,13 +77,14 @@ h1{
 }
 
 #honey-bbq h2{
-    margin: 40px 300px 50px 300px;
+    margin: 20px 300px 50px 300px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     font-size: 24px;
     font-weight: bold;
-    background-color: rgb(65, 54, 95);
+    background-color: rgb(51, 46, 100);
+    border-bottom: 4px solid rgb(128, 199, 240);
     padding: 20px;
-    border-radius: 20px 20px 0 0; 
+    border-radius: 40px 20px 0 0; 
     
 }
 
@@ -106,14 +108,19 @@ ul{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     font-size: 24px;
     font-weight: bold;
-    background-color: rgb(65, 54, 95);
+    background-color: rgb(51, 46, 100);
+    border-bottom: 4px solid rgb(128, 199, 240);
     padding: 20px;
     border-radius: 20px 20px 0 0;
 }
 
     #honey-bbq p{
-        margin: 40px 300px 5px 300px;  
+        margin: 40px 300px 5px 300px;
+        background-color: rgb(69, 64, 99);  
+        padding: 20px;
+        border-radius: 0 0 20px 20px;
     }
+
     
     footer{
         display: flex;
@@ -143,3 +150,25 @@ ul{
         color: rgb(24, 22, 61);
     }
     
+    @media only screen and (max-width:800px) {
+          ul{
+            margin: 20px 30px 20px 30px;
+          }
+
+          #honey-bbq .title{
+            margin: 20px 30px 20px 30px;
+          }
+
+          img{
+            width: 89%;
+          }
+
+          #honey-bbq h2{
+            margin: 20px 30px 20px 30px;
+          }
+
+          #honey-bbq p{
+            margin: 20px 30px 20px 30px;
+          }
+        
+    }
