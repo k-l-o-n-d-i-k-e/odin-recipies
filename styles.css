@@ -141,6 +141,7 @@ ul{
         border-radius: 0 0 20px 20px;
         line-height: 2;
         text-align: left;
+        border-bottom: 4px solid rgb(119, 114, 161);
     }
     #honey-bbq .title{
         text-align: center;
